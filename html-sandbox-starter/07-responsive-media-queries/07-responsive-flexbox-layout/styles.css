@@ -5,7 +5,7 @@
 }
 
 body {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 ul {
@@ -65,4 +65,39 @@ h2 {
   padding: 10px;
   background: #f4f4f4;
   border-bottom: 1px solid #ccc;
+}
+
+/* Queries */
+@media (max-width: 768px) {
+  .header {
+    padding: 20px;
+  }
+
+  h1 {
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .main-menu {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .main-menu li {
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 5px;
+  }
+
+  .main-menu li:last-child {
+    border-bottom: none;
+    padding-bottom: 0;
+  }
+
+  .main {
+    flex-direction: column-reverse;
+  }
+
+  .main aside {
+    width: 100%;
+  }
 }
