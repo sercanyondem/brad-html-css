@@ -5,6 +5,70 @@
 }
 
 body {
-  font-family: 'Poppins', sans-serif;
-  background: #f4f4f4;
+  font-family: "Poppins", sans-serif;
+  background: #f1f1f1;
+}
+
+html {
+  font-size: 10px;
+}
+
+.container {
+  max-width: 40rem;
+  margin: 15rem auto;
+}
+
+.card {
+  background-color: #373f4d;
+  color: #fff;
+  border-radius: 5px;
+  text-align: center;
+  padding: 6rem 5rem;
+  box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.4);
+}
+
+.card-header {
+  font-size: 2.2rem;
+  margin-bottom: 1.5rem;
+  font-weight: 300;
+}
+
+.card-title {
+  font-size: 1.5rem;
+  margin-bottom: 3rem;
+}
+
+.card .form-group {
+  margin-bottom: 2rem;
+}
+
+.card input[type="text"] {
+  width: 100%;
+  padding: 1.5rem 1rem;
+  font-size: large;
+  border: none;
+  background-color: #f1f1f1;
+}
+
+.card button {
+  width: 100%;
+  padding: 1.5rem 1rem;
+  font-size: large;
+  background: rgb(242, 132, 62);
+  background: linear-gradient(
+    90deg,
+    rgba(242, 132, 62, 1) 21%,
+    rgba(239, 111, 69, 1) 61%
+  );
+  color: #fff;
+  cursor: pointer;
+}
+
+.card button:hover {
+  background: linear-gradient(
+    90deg,
+    rgba(232, 132, 62, 1) 21%,
+    rgba(229, 111, 69, 1) 61%
+  );
+  color: #fff;
 }
